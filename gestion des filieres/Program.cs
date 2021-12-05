@@ -54,7 +54,6 @@ namespace gestion_des_filieres
             liste.Sort(delegate (Tuple<Etudiant, string, string, string> x, Tuple<Etudiant, string, string, string> y) {
                 return y.Item1.Enote.CompareTo(x.Item1.Enote);
             });
-
             
             // Affectation des options 
 
@@ -142,7 +141,6 @@ namespace gestion_des_filieres
                     }
 
                     
-
                 }
             
 
@@ -158,7 +156,6 @@ namespace gestion_des_filieres
             for (int i = 0; i <j ; i++)
             {
                 
-
                 Console.Write(tab[i] + "\t" );
                
                 Console.Write("\n");
